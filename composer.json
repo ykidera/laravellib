@@ -1,0 +1,17 @@
+{
+    "name": "ykidera/laravellib",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yoshinobu Kidera",
+            "email": "y.kidera@birdiemobile.co.jp"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ykidera\\Laravellib\\": "src/"
+        }
+    },
+    "require": {}
+}
