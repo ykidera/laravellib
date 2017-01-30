@@ -13,7 +13,7 @@ class InoutServiceProvider extends ServiceProvider
         $this->app->singleton('inout', function ($app) {
             return new Inout();
         });
-        $this->app->alias('inout', 'Ykidera\Laravellib\Inout');
+        $this->app->alias('inout', 'Ykidera\Laravellib\InoutBuilder');
     }
     public function provides()
     {

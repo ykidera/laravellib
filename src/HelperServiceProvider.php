@@ -13,7 +13,7 @@ class HelperServiceProvider extends ServiceProvider
         $this->app->singleton('helper', function ($app) {
             return new Helper();
         });
-        $this->app->alias('helper', 'Ykidera\Laravellib\Helper');
+        $this->app->alias('helper', 'Ykidera\Laravellib\HelperBuilder');
     }
     public function provides()
     {
