@@ -8,6 +8,12 @@
             "email": "y.kidera@birdiemobile.co.jp"
         }
     ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/http": "5.3.*",
+        "illuminate/routing": "5.3.*",
+        "illuminate/view": "5.3.*"
+    },
     "autoload": {
         "psr-4": {
             "Ykidera\\Laravellib\\": "src/"
