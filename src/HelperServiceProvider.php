@@ -11,7 +11,7 @@ class HelperServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('helper', function ($app) {
-            return new Helper();
+            return new HelperBuilder();
         });
         $this->app->alias('helper', 'Ykidera\Laravellib\HelperBuilder');
     }

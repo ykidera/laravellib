@@ -11,7 +11,7 @@ class InoutServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton('inout', function ($app) {
-            return new Inout();
+            return new InoutBuilder();
         });
         $this->app->alias('inout', 'Ykidera\Laravellib\InoutBuilder');
     }
