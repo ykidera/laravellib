@@ -13,8 +13,8 @@ class HelperServiceProvider extends ServiceProvider
         $this->app->singleton('helper', function ($app) {
             return new HelperBuilder();
         });
-        $this->app->singleton('command.helper.make', function () {
-            return new HelperCommand();
+        $this->app->singleton('command.helper.make', function ($app) {
+            return new HelperCommand($app['files']);
         });
         $this->commands([
             'command.helper.make',
