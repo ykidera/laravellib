@@ -4,6 +4,7 @@ namespace Ykidera\Laravellib;
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Input;
+use Ykidera\Laravellib\InputArrayObject;
 
 class InoutBuilder
 {
