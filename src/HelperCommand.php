@@ -18,7 +18,7 @@ class HelperCommand extends GeneratorCommand
      *
      * @var string
      */
-    protected $description = 'Create a new helper class';
+    protected $description = 'Create a new helper function';
 
     /**
      * The type of class being generated.
