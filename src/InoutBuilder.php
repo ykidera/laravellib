@@ -30,7 +30,7 @@ class InoutBuilder
 			$input = Input::all();
 			$old   = false;
 		}
-		return(new InputArrayObject($input+$format,$validator,$message,$old));
+		return(new Ykidera\Laravellib\InputArrayObject($input+$format,$validator,$message,$old));
 	}
 	public function view($returnData=[],$template_name=null){
 		if(is_null($template_name)){
